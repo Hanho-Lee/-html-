@@ -5,18 +5,26 @@
         <meta charset="utf8">
     </head>
     <body>
-        <p>
-            <left><a href="https://opentutorials.org/"><strong>Open</strong>tutorials.org</a></left>
-            <right>
+        <!--
+            div 태그의 class head와
+            header 태그, hgroup 태그를 써봤는데 본 사이트와 같은 모양이 나오지 않았음
+        -->
+        <p class="title"><a href="1.html">생활코딩</a></p>
+        <p class="subtitle"><small>Coding Everybody</small></p>
+        <a class="title" href="https://opentutorials.org/">
+            <span>Open</span>"tutorials.org"
+        </a>
+        <nav>
+            <li>
+                <a class="title" href="https://opentutorials.org/module/180">도움말</a>
+            </li>
+            <li id="login">
+                <a class="title" href="https://opentutorials.org/auth?mode=login&returnURL=course/1">로그인</a>
+            </li>
+            <li id="donations">
                 <a href="https://opentutorials.org/module/1588/12591">후원</a>
-                <a href="https://opentutorials.org/auth?mode=login&returnURL=course/1">로그인</a>
-                <a href="https://opentutorials.org/module/180">도움말</a>
-            </right>
-        </p>
-        <center>
-            <h1><a href="https://opentutorials.org/course/1">생활코딩</h1></a>
-            <h2>Coding Everbody</h2>
-        </center>
+            </li>
+        </nav>
         <table>
             <tr>
                 <td><a href="https://opentutorials.org/course/3083">WEB</a></td>
